@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Service
+Icon=system-file-manager
+Actions=Clear Cached Items
+# ServiceTypes=KonqPopupMenu/Plugin,inode/directory,inode/directory-locked
+MimeType=inode/directory;inode/directory-locked
+
+[Desktop Action Clear Cached Items]
+Exec=pkexec /home/$USER/.local/share/kio/servicemenus/scripts.sh
+Icon=system-file-manager
+Name=clear cached files
+
+
